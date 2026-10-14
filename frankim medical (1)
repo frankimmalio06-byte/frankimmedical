@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>frankim Medical Centre | SHA Accredited - Better health,Bright future</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,sans-serif}
+:root{--green:#0a7a4c;--dark:#062c1c;--light:white}
+header{background:white;box-shadow:0 2px 10px rgba(0,0,0,.1);position:sticky;top:0;z-index:100;padding:12px 5%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;color:var(--green);font-size:22px}.logo span{color:#e63946}
+.sha-badge{background:var(--green);color:white;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600}
+.hero{background:linear-gradient(rgba(6,44,28,.85),rgba(6,44,28,.85)),url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d');background-size:cover;color:white;padding:80px 5%;text-align:center}
+.hero h1{font-size:48px;margin-bottom:15px;color:red}.hero p{font-size:18px;opacity:.9}
+.btn{padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:600;display:inline-block;margin:10px}
+.btn-red{background:#e63946;color:white}.btn-green{background:white;color:var(--green)}
+.branches{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;padding:40px 5%;background:var(--light)}
+.card{background:white;border-radius:16px;padding:24px;box-shadow:0 4px 15px rgba(0,0,0,.05);border-left:5px solid var(--green)}
+.services{padding:50px 5%}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.service-box{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;text-align:center}
+.service-box h4{color:var(--green);margin:8px 0}
+.emergency{position:fixed;bottom:20px;right:20px;background:#e63946;color:white;padding:16px 24px;border-radius:50px;font-weight:800;box-shadow:0 5px 20px rgba(0,0,0,.3);text-decoration:none;z-index:200}
+footer{background:var(--dark);color:white;padding:40px 5%;text-align:center}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">🏥 FRANKIM <span>MEDICAL CENTRE</span></div>
+<div class="sha-badge">✓ SHA ACCREDITED - LEVEL 3B</div>
+</header>
+
+<section class="hero">
+<h1>Bright future needs better Medical Care, only at FRANKIM MEDICAL CENTRE</h1>
+<p>24/7 Emergency • SHA  • 3 Branches • P.O Box 39-0020 MIKINDANI</p>
+<br>
+<a href="tel:0768627337" class="btn btn-red">📞 CALL: 0112747098</a>
+<a href="https://wa.me/2547112747098" class="btn btn-green">💬 WhatsApp Booking</a>
+<br><br>
+<p>📍 Along Malindi-Mombasa-Nairobi Highway | Kilifi-Bamburi-Mariakani</p>
+</section>
+
+<section class="branches">
+<div class="card">
+<h3>📍 Branch 1: Mikindani HQ</h3>
+<p>Alongside St.Mathias Mulumba Catholic Church<br>Open 24 Hours<br><b>Main Nursing Home</b></p>
+</div>
+<div class="card">
+<h3>📍 Branch 2:Shanzu </h3>
+<p>Near Shanzu Teachers Training College-alongside Shanzu-Bamburi Road<br>Outpatient & Maternity<br>Full SHA Coverage</p>
+</div>
+<div class="card">
+<h3>📍 Branch 3: Mariakani</h3>
+<p>Mariakani Town-near Co-operative Bank<br>Open 24/7<br> Emergency & Clinic <br>Full SHA Coverage</p>
+</div>
+</section>
+
+<section class="services">
+<h2 style="text-align:center;color:var(--green);font-size:32px;margin-bottom:30px">Our Medical Specialities</h2>
+<div class="grid">
+<div class="service-box"><h4>🩺 General Medicine</h4><p>GP, Internal Medicine, Outpatient & Inpatient</p></div>
+<div class="service-box"><h4>🦴 Orthopedic</h4><p>Bone, joint, fracture care<br> Dr.JOSEPH</p></div>
+<div class="service-box"><h4>👶 Pediatrics</h4><p>Kids doctor, child wellness<br> Dr.MALIO</p></div>
+<div class="service-box"><h4>🤰 Obs & Gynecology</h4><p>Pregnancy, women's health, Maternity delivery</p></div>
+<div class="service-box"><h4>🧴 Dermatology</h4><p>Skin specialist</p></div>
+<div class="service-box"><h4>🎗️ Oncology</h4><p>Cancer screening</p></div>
+<div class="service-box"><h4>🧠 Psychiatry</h4><p>Mental health support<br> Dr.SAMUEL</p></div>
+<div class="service-box"><h4>📸 Radiology</h4><p>X-ray, Ultrasound Scan<br> Dr.FELIX</p></div>
+<div class="service-box"><h4>🔬 Laboratory</h4><p>Blood tests, Pathology</p></div>
+<div class="service-box"><h4>🚨 Emergency</h4><p>24/7 Casualty<br> Dr.MWETAH</p></div>
+<div class="service-box"><h4>⭐ Specialist Clinic</h4><p>All specialist doctors Wed 7:30am</p></div>
+<div class="service-box"><h4>🏥 Inpatient / Outpatient</h4><p>Wards & Clinic visits</p></div>
+</div>
+</section>
+
+<section style="background:var(--green);color:white;padding:40px 5%;text-align:center">
+<h2>💳 SHA / Britam / All Insurances Accepted</h2>
+<p>Licensed by KMPDC Level 3B - Private Facility -Mombasa-Kilifi County<br>We accept SHA, Britam & M-Pesa</p>
+<br>
+<div class="btn btn-green">Book Appointment Now via M-Pesa</div>
+</section>
+
+<footer>
+<p><b>Frankim Medical Centre</b> | 39-0020 Aldina Area, Mikindani Main Office<br>Phone: 0768627337 | Open 24 Hours | SHA Accredited Level 3B<br><br>© 2026 Best & Affordable Payments </p>
+<style="backgroundcolor:green:padding:50px; font-color:red;text-align:center;" style/>By frank'
+</footer>
+
+<a href="tel:0768627337" class="emergency">🚨 EMERGENCY</a>
+</body>
+</html>
